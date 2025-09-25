@@ -1,59 +1,40 @@
-🎵 Music Genre Classification
+# 🎶 Music Genre Classification  
 
-This project focuses on classifying songs into different genres using the GTZAN dataset from Kaggle. It combines audio signal processing with Machine Learning (ML) and Deep Learning (DL) to achieve accurate multi-class classification.
+This project focuses on classifying songs into different genres using the **GTZAN dataset** from Kaggle.  
+It applies both **Machine Learning (ML)** and **Deep Learning (DL)** techniques with audio feature extraction.  
 
-🚀 Project Workflow
+---
 
-Data Preprocessing
+## 🚀 Project Workflow  
+- 📂 **Data Preprocessing** → Loading & preparing GTZAN dataset  
+- 🎼 **Feature Extraction** → MFCCs, Spectrograms, Chroma features with Librosa  
+- 🤖 **Model Training** → ML models (SVM, Random Forest, KNN) & CNN with Keras  
+- 📊 **Evaluation** → Accuracy, Precision, Recall, F1-score  
 
-Loaded GTZAN dataset
+---
 
-Converted audio files into structured numerical form
+## 🛠️ Tools & Libraries  
+- Python 🐍  
+- Librosa 🎶  
+- Scikit-learn ⚙️  
+- TensorFlow / Keras 🤖  
 
-Feature Extraction
+---
 
-Extracted MFCCs, Spectrograms, Chroma features using Librosa
+## 📂 Project Files  
+- `music_genre_classification.ipynb` → Main notebook with code & results  
+- `features/` → Extracted features  
+- `models/` → Saved ML & DL models  
 
-Normalized and prepared data for modeling
+---
 
-Model Training
+## 👨‍💻 Author  
+**Syed Bilal Faiz**  
+- Cybersecurity & Data Science Enthusiast  
+- [🔗 LinkedIn](https://www.linkedin.com/in/syed-bilal-faiz-262324247)  
+- [🐙 GitHub](https://github.com/SYEDBILALFAIZ)  
 
-Implemented ML models: SVM, Random Forest, KNN
+---
 
-Trained CNN with Keras for deep learning approach
+⭐ If you like this project, don’t forget to **star the repo**!  
 
-Model Evaluation
-
-Evaluated using Accuracy, Precision, Recall, F1-score
-
-Compared ML vs DL performance
-
-📊 Technologies & Tools
-
-Python 🐍
-
-Librosa 🎶 (Feature Extraction)
-
-Scikit-learn ⚙️ (ML Models)
-
-TensorFlow/Keras 🤖 (Deep Learning)
-
-📂 Project Files
-
-music_genre_classification.ipynb → Main Jupyter Notebook with code & results
-
-features/ → Extracted audio features
-
-models/ → Saved ML/DL models
-
-👨‍💻 Author
-
-Syed Bilal Faiz
-
-Cybersecurity & Data Science Enthusiast
-
-LinkedIn Profile
-
-GitHub Profile
-
-⭐ Don’t forget to star this repo if you found it useful!
